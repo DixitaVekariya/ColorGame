@@ -1,0 +1,203 @@
+.mainContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHistoryContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.historyContainer {
+    margin-top: 80px;
+}
+
+.historyText {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.underlineText {
+    width: 346px;
+    height: 1px;
+    background: #B7B7B7;
+    border-radius: 50px;
+}
+.emptyText{
+    font-size: 20px;
+}
+.taskContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 600px;
+    scroll-behavior: smooth;
+}
+
+.colorTodoContainer {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50px;
+    height: 69px;
+}
+
+/* .colorTodoContainer:hover {
+    height: 59px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+} */
+.background{
+    /* display: flex; */
+    /* height: 69px; */
+    background: rgba(0, 0, 0, 0.2);
+    /* border-radius: 50px; */
+}
+
+.firstColort {
+    margin-top: 10px;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.secondColort {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.thirdColort {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    background: #00FF38;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.circleContainer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.fCContainer {
+    margin: 20px;
+    justify-content: center;
+}
+
+.fstCircle {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.fstCircleText {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.sCContainer {
+    margin: 20px;
+    justify-content: center;
+}
+
+.secondCircle {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.secondCircleText {
+    text-align: center;
+}
+
+.sCContainer {
+    margin: 20px;
+    justify-content: center;
+}
+
+.secondCircle {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.secondCircleText {
+    text-align: center;
+}
+
+.tCContainer {
+    margin: 20px;
+    justify-content: center;
+}
+
+.thirdCircle {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+
+.thirdCircleText {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 20px;
+}
+
+.previousBtn {
+    text-align: center;
+    padding: 15px 35px 15px 35px;
+    background: #000000;
+    border-radius: 100px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 19px;
+    /* height: 40px; */
+    cursor: pointer;
+}
+
+.previousBtn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nextBtn {
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+    background: #000000;
+    border-radius: 100px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 19px;
+    /* height: 40px; */
+    cursor: pointer;
+}
+
+.nextBtn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
